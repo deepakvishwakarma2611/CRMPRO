@@ -1,0 +1,361 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="297.159" tests="12" errors="0" skipped="3" failures="1">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="webdriver.chrome.driver" value="C:\Users\Deepak Vishwakarma\eclipse-workspace\CRMPRO\Drivers\chromedriver.exe"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\Deepak Vishwakarma\eclipse-workspace\CRMPRO\target\test-classes;C:\Users\Deepak Vishwakarma\eclipse-workspace\CRMPRO\target\classes;C:\Users\Deepak Vishwakarma\.m2\repository\org\seleniumhq\selenium\selenium-java\3.14.0\selenium-java-3.14.0.jar;C:\Users\Deepak Vishwakarma\.m2\repository\org\seleniumhq\selenium\selenium-api\3.14.0\selenium-api-3.14.0.jar;C:\Users\Deepak Vishwakarma\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.14.0\selenium-chrome-driver-3.14.0.jar;C:\Users\Deepak Vishwakarma\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.14.0\selenium-edge-driver-3.14.0.jar;C:\Users\Deepak Vishwakarma\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.14.0\selenium-firefox-driver-3.14.0.jar;C:\Users\Deepak Vishwakarma\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.14.0\selenium-ie-driver-3.14.0.jar;C:\Users\Deepak Vishwakarma\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.14.0\selenium-opera-driver-3.14.0.jar;C:\Users\Deepak Vishwakarma\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.14.0\selenium-remote-driver-3.14.0.jar;C:\Users\Deepak Vishwakarma\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.14.0\selenium-safari-driver-3.14.0.jar;C:\Users\Deepak Vishwakarma\.m2\repository\org\seleniumhq\selenium\selenium-support\3.14.0\selenium-support-3.14.0.jar;C:\Users\Deepak Vishwakarma\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\Deepak Vishwakarma\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\Deepak Vishwakarma\.m2\repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar;C:\Users\Deepak Vishwakarma\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\Deepak Vishwakarma\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\Deepak Vishwakarma\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\Deepak Vishwakarma\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\Deepak Vishwakarma\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\Deepak Vishwakarma\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\Deepak Vishwakarma\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\Deepak Vishwakarma\.m2\repository\org\apache\httpcomponents\httpclient\4.5.5\httpclient-4.5.5.jar;C:\Users\Deepak Vishwakarma\.m2\repository\org\apache\httpcomponents\httpcore\4.4.9\httpcore-4.4.9.jar;C:\Users\Deepak Vishwakarma\.m2\repository\com\squareup\okhttp3\okhttp\3.10.0\okhttp-3.10.0.jar;C:\Users\Deepak Vishwakarma\.m2\repository\com\squareup\okio\okio\1.14.1\okio-1.14.1.jar;C:\Users\Deepak Vishwakarma\.m2\repository\org\testng\testng\6.11\testng-6.11.jar;C:\Users\Deepak Vishwakarma\.m2\repository\com\beust\jcommander\1.64\jcommander-1.64.jar;C:\Users\Deepak Vishwakarma\.m2\repository\org\yaml\snakeyaml\1.17\snakeyaml-1.17.jar;C:\Users\Deepak Vishwakarma\.m2\repository\org\apache\poi\poi\3.9\poi-3.9.jar;C:\Users\Deepak Vishwakarma\.m2\repository\org\apache\poi\poi-ooxml\3.9\poi-ooxml-3.9.jar;C:\Users\Deepak Vishwakarma\.m2\repository\dom4j\dom4j\1.6.1\dom4j-1.6.1.jar;C:\Users\Deepak Vishwakarma\.m2\repository\xml-apis\xml-apis\1.0.b2\xml-apis-1.0.b2.jar;C:\Users\Deepak Vishwakarma\.m2\repository\org\apache\poi\poi-ooxml-schemas\3.9\poi-ooxml-schemas-3.9.jar;C:\Users\Deepak Vishwakarma\.m2\repository\org\apache\xmlbeans\xmlbeans\2.3.0\xmlbeans-2.3.0.jar;C:\Users\Deepak Vishwakarma\.m2\repository\stax\stax-api\1.0.1\stax-api-1.0.1.jar;C:\Users\Deepak Vishwakarma\.m2\repository\org\apache\poi\poi-scratchpad\3.9\poi-scratchpad-3.9.jar;C:\Users\Deepak Vishwakarma\.m2\repository\org\apache\poi\ooxml-schemas\1.1\ooxml-schemas-1.1.jar;C:\Users\Deepak Vishwakarma\.m2\repository\org\apache\poi\openxml4j\1.0-beta\openxml4j-1.0-beta.jar;C:\Users\Deepak Vishwakarma\.m2\repository\log4j\log4j\1.2.8\log4j-1.2.8.jar;C:\Users\Deepak Vishwakarma\.m2\repository\com\relevantcodes\extentreports\2.41.2\extentreports-2.41.2.jar;C:\Users\Deepak Vishwakarma\.m2\repository\org\jsoup\jsoup\1.8.3\jsoup-1.8.3.jar;C:\Users\Deepak Vishwakarma\.m2\repository\org\xerial\sqlite-jdbc\3.8.11.1\sqlite-jdbc-3.8.11.1.jar;C:\Users\Deepak Vishwakarma\.m2\repository\org\freemarker\freemarker\2.3.23\freemarker-2.3.23.jar;C:\Users\Deepak Vishwakarma\.m2\repository\org\mongodb\mongodb-driver\3.0.4\mongodb-driver-3.0.4.jar;C:\Users\Deepak Vishwakarma\.m2\repository\org\mongodb\bson\3.0.4\bson-3.0.4.jar;C:\Users\Deepak Vishwakarma\.m2\repository\org\mongodb\mongodb-driver-core\3.0.4\mongodb-driver-core-3.0.4.jar;C:\Users\Deepak Vishwakarma\.m2\repository\commons-io\commons-io\2.6\commons-io-2.6.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_241\jre\bin"/>
+    <property name="sun.java.command" value="C:\Users\Deepak Vishwakarma\AppData\Local\Temp\surefire694811065307842342\surefirebooter3349714378352803100.jar C:\Users\Deepak Vishwakarma\AppData\Local\Temp\surefire694811065307842342 2020-04-24T12-42-53_975-jvmRun1 surefire5932947893786984508tmp surefire_04321880660575466186tmp"/>
+    <property name="surefire.test.class.path" value="C:\Users\Deepak Vishwakarma\eclipse-workspace\CRMPRO\target\test-classes;C:\Users\Deepak Vishwakarma\eclipse-workspace\CRMPRO\target\classes;C:\Users\Deepak Vishwakarma\.m2\repository\org\seleniumhq\selenium\selenium-java\3.14.0\selenium-java-3.14.0.jar;C:\Users\Deepak Vishwakarma\.m2\repository\org\seleniumhq\selenium\selenium-api\3.14.0\selenium-api-3.14.0.jar;C:\Users\Deepak Vishwakarma\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.14.0\selenium-chrome-driver-3.14.0.jar;C:\Users\Deepak Vishwakarma\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.14.0\selenium-edge-driver-3.14.0.jar;C:\Users\Deepak Vishwakarma\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.14.0\selenium-firefox-driver-3.14.0.jar;C:\Users\Deepak Vishwakarma\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.14.0\selenium-ie-driver-3.14.0.jar;C:\Users\Deepak Vishwakarma\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.14.0\selenium-opera-driver-3.14.0.jar;C:\Users\Deepak Vishwakarma\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.14.0\selenium-remote-driver-3.14.0.jar;C:\Users\Deepak Vishwakarma\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.14.0\selenium-safari-driver-3.14.0.jar;C:\Users\Deepak Vishwakarma\.m2\repository\org\seleniumhq\selenium\selenium-support\3.14.0\selenium-support-3.14.0.jar;C:\Users\Deepak Vishwakarma\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\Deepak Vishwakarma\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\Deepak Vishwakarma\.m2\repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar;C:\Users\Deepak Vishwakarma\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\Deepak Vishwakarma\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\Deepak Vishwakarma\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\Deepak Vishwakarma\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\Deepak Vishwakarma\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\Deepak Vishwakarma\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\Deepak Vishwakarma\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\Deepak Vishwakarma\.m2\repository\org\apache\httpcomponents\httpclient\4.5.5\httpclient-4.5.5.jar;C:\Users\Deepak Vishwakarma\.m2\repository\org\apache\httpcomponents\httpcore\4.4.9\httpcore-4.4.9.jar;C:\Users\Deepak Vishwakarma\.m2\repository\com\squareup\okhttp3\okhttp\3.10.0\okhttp-3.10.0.jar;C:\Users\Deepak Vishwakarma\.m2\repository\com\squareup\okio\okio\1.14.1\okio-1.14.1.jar;C:\Users\Deepak Vishwakarma\.m2\repository\org\testng\testng\6.11\testng-6.11.jar;C:\Users\Deepak Vishwakarma\.m2\repository\com\beust\jcommander\1.64\jcommander-1.64.jar;C:\Users\Deepak Vishwakarma\.m2\repository\org\yaml\snakeyaml\1.17\snakeyaml-1.17.jar;C:\Users\Deepak Vishwakarma\.m2\repository\org\apache\poi\poi\3.9\poi-3.9.jar;C:\Users\Deepak Vishwakarma\.m2\repository\org\apache\poi\poi-ooxml\3.9\poi-ooxml-3.9.jar;C:\Users\Deepak Vishwakarma\.m2\repository\dom4j\dom4j\1.6.1\dom4j-1.6.1.jar;C:\Users\Deepak Vishwakarma\.m2\repository\xml-apis\xml-apis\1.0.b2\xml-apis-1.0.b2.jar;C:\Users\Deepak Vishwakarma\.m2\repository\org\apache\poi\poi-ooxml-schemas\3.9\poi-ooxml-schemas-3.9.jar;C:\Users\Deepak Vishwakarma\.m2\repository\org\apache\xmlbeans\xmlbeans\2.3.0\xmlbeans-2.3.0.jar;C:\Users\Deepak Vishwakarma\.m2\repository\stax\stax-api\1.0.1\stax-api-1.0.1.jar;C:\Users\Deepak Vishwakarma\.m2\repository\org\apache\poi\poi-scratchpad\3.9\poi-scratchpad-3.9.jar;C:\Users\Deepak Vishwakarma\.m2\repository\org\apache\poi\ooxml-schemas\1.1\ooxml-schemas-1.1.jar;C:\Users\Deepak Vishwakarma\.m2\repository\org\apache\poi\openxml4j\1.0-beta\openxml4j-1.0-beta.jar;C:\Users\Deepak Vishwakarma\.m2\repository\log4j\log4j\1.2.8\log4j-1.2.8.jar;C:\Users\Deepak Vishwakarma\.m2\repository\com\relevantcodes\extentreports\2.41.2\extentreports-2.41.2.jar;C:\Users\Deepak Vishwakarma\.m2\repository\org\jsoup\jsoup\1.8.3\jsoup-1.8.3.jar;C:\Users\Deepak Vishwakarma\.m2\repository\org\xerial\sqlite-jdbc\3.8.11.1\sqlite-jdbc-3.8.11.1.jar;C:\Users\Deepak Vishwakarma\.m2\repository\org\freemarker\freemarker\2.3.23\freemarker-2.3.23.jar;C:\Users\Deepak Vishwakarma\.m2\repository\org\mongodb\mongodb-driver\3.0.4\mongodb-driver-3.0.4.jar;C:\Users\Deepak Vishwakarma\.m2\repository\org\mongodb\bson\3.0.4\bson-3.0.4.jar;C:\Users\Deepak Vishwakarma\.m2\repository\org\mongodb\mongodb-driver-core\3.0.4\mongodb-driver-core-3.0.4.jar;C:\Users\Deepak Vishwakarma\.m2\repository\commons-io\commons-io\2.6\commons-io-2.6.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\Deepak Vishwakarma"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_241\jre"/>
+    <property name="basedir" value="C:\Users\Deepak Vishwakarma\eclipse-workspace\CRMPRO"/>
+    <property name="file.separator" value="\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\Deepak Vishwakarma\AppData\Local\Temp\surefire694811065307842342\surefirebooter3349714378352803100.jar"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_241\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_241\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_241\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_241\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_241\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_241\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_241\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_241\jre\classes"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="1.8.0_241-b07"/>
+    <property name="user.name" value="Deepak Vishwakarma"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_241\jre\lib\endorsed"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\Deepak Vishwakarma\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\DEEPAK~1\AppData\Local\Temp\"/>
+    <property name="java.version" value="1.8.0_241"/>
+    <property name="user.dir" value="C:\Users\Deepak Vishwakarma\eclipse-workspace\CRMPRO"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_241\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Java\jdk1.8.0_241\bin;C:\Program Files\dotnet\;C:\Program Files\Git\cmd;D:\1\apache-maven-3.6.3\bin;C:\Users\Deepak Vishwakarma\AppData\Local\Microsoft\WindowsApps;C:\Program Files (x86)\Sophos\Sophos SSL VPN Client\bin;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="25.241-b07"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_241\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="52.0"/>
+  </properties>
+  <testcase name="verifyLoginPageTitle" classname="com.crm.qa.test.LoginPageTest" time="0.056"/>
+  <testcase name="crmLogoIsDisplayed" classname="com.crm.qa.test.LoginPageTest" time="0.192"/>
+  <testcase name="loginTest" classname="com.crm.qa.test.LoginPageTest" time="8.557"/>
+  <testcase name="verifyHomePageTitle" classname="com.crm.qa.test.HomePageTest" time="0.016"/>
+  <testcase name="verifyUsernameTest" classname="com.crm.qa.test.HomePageTest" time="0.84"/>
+  <testcase name="Initialization" classname="com.crm.qa.test.HomePageTest" time="46.113">
+    <failure message="timeout: Timed out receiving message from renderer: 29.114&#10;  (Session info: chrome=81.0.4044.122)&#10;Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;&#10;System info: host: &apos;DESKTOP-6NH46FF&apos;, ip: &apos;192.168.1.203&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_241&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.122, chrome: {chromedriverVersion: 81.0.4044.69 (6813546031a4b..., userDataDir: C:\Users\DEEPAK~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:53117}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: fc436f481e03212eb2e76d77c7af7c09" type="org.openqa.selenium.TimeoutException"><![CDATA[org.openqa.selenium.TimeoutException: 
+timeout: Timed out receiving message from renderer: 29.114
+  (Session info: chrome=81.0.4044.122)
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'DESKTOP-6NH46FF', ip: '192.168.1.203', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.122, chrome: {chromedriverVersion: 81.0.4044.69 (6813546031a4b..., userDataDir: C:\Users\DEEPAK~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:53117}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: fc436f481e03212eb2e76d77c7af7c09
+	at com.crm.qa.test.HomePageTest.Initialization(HomePageTest.java:38)
+]]></failure>
+    <system-out><![CDATA[Before navigating to: 'https://classic.freecrm.com/index.html'
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 81.0.4044.69 (6813546031a4bc83f717a2ef7cd4ac6ec1199132-refs/branch-heads/4044@{#776}) on port 3303
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+Apr 24, 2020 12:46:36 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+[1587712599.420][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587712599.620][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587712599.724][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587712599.828][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587712599.932][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587712600.036][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587712600.140][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587712600.244][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587712600.348][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587712600.456][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587712600.560][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587712600.664][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587712600.768][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587712600.872][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587712600.976][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587712601.080][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587712601.185][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587712601.288][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587712601.392][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587712601.496][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587712601.604][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587712601.708][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587712601.812][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587712602.109][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587712602.211][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587712602.315][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587712602.417][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587712602.520][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587712602.622][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587712602.726][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587712602.828][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587712602.932][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587712603.036][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587712603.142][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587712603.244][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587712603.349][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587712603.452][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587712603.556][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587712603.661][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587712603.772][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587712603.876][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587712603.984][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587712604.092][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587712604.200][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587712604.303][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587712604.824][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587712604.951][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587712605.100][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587712605.217][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587712605.333][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587712605.452][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587712605.568][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587712605.685][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587712605.792][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587712605.904][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587712606.008][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587712606.114][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587712606.220][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587712606.324][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587712606.428][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587712606.536][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587712606.728][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587712607.027][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587712607.235][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587712607.339][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587712607.512][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587712607.616][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587712607.788][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587712607.891][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587712608.059][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587712608.163][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587712608.412][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587712608.519][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587712608.623][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587712608.727][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587712608.839][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587712608.943][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587712609.051][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587712609.155][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587712609.259][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587712609.366][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587712609.471][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587712609.575][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587712609.680][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587712609.784][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587712609.887][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587712609.991][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587712610.095][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587712610.199][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587712610.303][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587712610.407][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587712610.511][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587712610.619][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587712610.723][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587712610.827][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587712610.931][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587712611.038][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587712611.142][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587712611.386][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587712611.501][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587712611.606][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587712611.710][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587712611.814][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587712611.918][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587712612.022][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587712612.125][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587712612.229][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587712612.334][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587712612.437][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587712612.541][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587712612.646][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587712612.750][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587712612.857][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587712612.963][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587712613.069][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587712613.173][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587712613.277][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587712613.385][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587712613.489][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587712613.593][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587712613.699][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587712613.805][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587712613.909][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587712614.013][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587712614.119][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587712614.223][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587712614.327][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587712614.434][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587712614.539][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587712614.643][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587712614.767][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587712614.875][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587712614.982][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587712615.087][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587712615.191][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587712615.299][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587712615.403][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587712615.512][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587712615.618][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587712615.726][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587712615.833][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587712615.943][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587712616.050][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587712616.355][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587712616.459][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587712616.567][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587712616.672][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587712616.774][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587712616.875][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587712616.979][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587712617.083][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587712617.184][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587712617.288][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587712617.392][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587712617.496][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587712617.604][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587712617.708][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587712617.816][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587712617.920][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587712618.024][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587712618.128][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587712618.232][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587712618.336][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587712618.440][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587712618.544][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587712618.652][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587712618.756][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587712618.859][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587712618.967][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587712619.071][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587712619.175][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587712619.279][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587712619.383][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587712619.487][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587712619.591][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587712619.695][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587712619.803][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587712619.907][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587712620.017][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587712620.128][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587712620.232][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587712620.335][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587712620.615][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587712620.719][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587712620.824][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587712620.928][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587712621.034][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587712621.138][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587712621.242][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587712621.346][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587712621.450][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587712621.554][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587712621.658][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587712621.764][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587712621.875][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587712621.980][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587712622.083][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587712622.187][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587712622.291][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587712622.395][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587712622.500][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587712622.603][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587712622.707][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587712622.812][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587712622.919][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587712623.023][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587712623.127][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587712623.235][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587712623.339][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587712623.443][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587712623.551][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587712623.655][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587712623.759][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587712623.866][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587712623.970][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587712624.074][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587712624.180][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587712624.290][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587712624.395][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587712624.502][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587712624.606][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587712624.715][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587712624.935][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587712625.039][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587712625.144][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587712625.250][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587712625.352][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587712625.456][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587712625.561][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587712625.664][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587712625.768][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587712625.872][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587712625.974][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587712626.079][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587712626.184][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587712626.286][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587712626.390][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587712626.495][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587712626.606][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587712626.712][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587712626.818][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587712626.922][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587712627.027][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587712627.134][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587712627.238][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587712627.342][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587712627.447][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587712627.554][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587712627.658][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587712627.762][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587712627.866][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587712627.970][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587712628.074][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587712628.182][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587712628.286][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587712628.390][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587712628.406][SEVERE]: Timed out receiving message from renderer: 0.013
+[1587712628.415][SEVERE]: Timed out receiving message from renderer: 29.114
+Apr 24, 2020 12:47:08 PM org.openqa.selenium.remote.ErrorCodes toStatus
+INFO: HTTP Status: '500' -> incorrect JSON status mapping for 'timeout' (408 expected)
+]]></system-err>
+  </testcase>
+  <testcase name="Initialization" classname="com.crm.qa.test.HomePageTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="verifyModulesNameTest" classname="com.crm.qa.test.HomePageTest" time="0">
+    <skipped message="timeout: Timed out receiving message from renderer: 29.114&#10;  (Session info: chrome=81.0.4044.122)&#10;Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;&#10;System info: host: &apos;DESKTOP-6NH46FF&apos;, ip: &apos;192.168.1.203&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_241&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.122, chrome: {chromedriverVersion: 81.0.4044.69 (6813546031a4b..., userDataDir: C:\Users\DEEPAK~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:53117}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: fc436f481e03212eb2e76d77c7af7c09"/>
+  </testcase>
+  <testcase name="verifyContactsLinkTest" classname="com.crm.qa.test.HomePageTest" time="0">
+    <skipped message="timeout: Timed out receiving message from renderer: 29.114&#10;  (Session info: chrome=81.0.4044.122)&#10;Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;&#10;System info: host: &apos;DESKTOP-6NH46FF&apos;, ip: &apos;192.168.1.203&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_241&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.122, chrome: {chromedriverVersion: 81.0.4044.69 (6813546031a4b..., userDataDir: C:\Users\DEEPAK~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:53117}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: fc436f481e03212eb2e76d77c7af7c09"/>
+  </testcase>
+  <testcase name="verifyContactsPageisDisplayed" classname="com.crm.qa.test.ContactsPageTest" time="0.27"/>
+  <testcase name="clickOnCheckbox" classname="com.crm.qa.test.ContactsPageTest" time="0.1"/>
+  <testcase name="validateCreateNewContact" classname="com.crm.qa.test.ContactsPageTest" time="10.308"/>
+</testsuite>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test name="Test(failed)">
+    <classes>
+      <class name="com.crm.qa.test.HomePageTest">
+        <methods>
+          <include name="Initialization"/>
+          <include name="verifyModulesNameTest"/>
+          <include name="verifyUsernameTest"/>
+          <include name="teardown"/>
+          <include name="verifyHomePageTitle"/>
+          <include name="verifyContactsLinkTest"/>
+        </methods>
+      </class> <!-- com.crm.qa.test.HomePageTest -->
+      <class name="com.crm.qa.test.LoginPageTest">
+        <methods>
+          <include name="intialization"/>
+          <include name="crmLogoIsDisplayed"/>
+          <include name="loginTest"/>
+          <include name="verifyLoginPageTitle"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.crm.qa.test.LoginPageTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
